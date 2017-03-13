@@ -12,6 +12,14 @@ body {
     padding: 0px;
     width: 100%;
 }
+.ose {
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
 .ose a {
 text-decoration: none;
 }

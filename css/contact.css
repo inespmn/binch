@@ -15,6 +15,14 @@ body {
 }
 .contact {
 text-align: center;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    width: 100%;
 }
 .contact #back {
 position: fixed;
