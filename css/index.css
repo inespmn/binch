@@ -1,0 +1,59 @@
+
+body {
+
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color: #3498db; 
+    );
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:0.4rem;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+.app { 
+text-align: center;
+}
+#menu {
+position: fixed;
+top: 20px;
+left: 17px;
+}
+#logo {
+border: solid black 1px ;
+width: 60%;
+}
+h1 {
+color: white;
+}
+.body input {
+padding-left: 2.3rem;
+padding-right: 2.3rem;
+margin-top: 20px;
+background-color: #3498db;
+border: none;
+color: white;
+border-left: 1px solid white;
+border-bottom: 1px solid white;
+}
+.body {
+margin-top: 90px;
+}
+#ajout {
+margin-top: 20px;
+}
+#boutton {
+background-color: #2ecc71;
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 10px;
+font-size: 20px;
+color: white;
+margin-top: 8rem;
+}

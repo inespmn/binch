@@ -1,0 +1,38 @@
+body {
+
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color: #1ABC9C; 
+    );
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.ose a {
+text-decoration: none;
+}
+.ose div {
+width: 50%;
+color: white;
+height: 100%;
+border-radius: 30px;
+text-align: center;
+font-weight: 800;
+font-size: 3.8rem;
+line-height: 21rem;
+box-shadow: 
+}
+#ose {
+background-color: #2ecc71;
+position: fixed;
+left: 0px;
+}
+#osepas {
+background-color: #e74c3c;
+position: fixed;
+right: 0px;
+}

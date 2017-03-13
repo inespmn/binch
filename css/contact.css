@@ -1,0 +1,61 @@
+body {
+-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color: #3498db; 
+    );
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.contact {
+text-align: center;
+}
+.contact #back {
+position: fixed;
+top: 20px;
+left: 17px;
+}
+.contact #logo {
+width: 60%;
+border: solid black 1px ;
+}
+h1 {
+color: white;
+}
+.contact .body {
+width: 100  %;
+margin: auto;
+margin-top: 20px;
+}
+.contact input {
+padding-left: 70px;
+padding-right: 70px;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 10px;
+margin-bottom: 30px;
+}
+.contact textarea {
+padding-left: 75px;
+padding-right: 75px;
+padding-bottom: 90px;
+border-radius: 10px;
+}
+.contact #boutton {
+background-color: #2ecc71;
+padding-left: 90px;
+padding-right: 90px;
+padding-top: 2px;
+padding-bottom: 2px;
+border-radius: 10px;
+font-size: 30px;
+color: white;
+margin-top: 4rem;
+font-weight: 800;
+}
