@@ -4,27 +4,35 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/index2.css">
         <title>Binch !</title>
     </head>
     <body>
         <div class="app">
-            <span id="menu"><a href="menu.html"><img src="img/menu.png" width="80%" alt="logo menu"></a></span>
-            <span><img src="img/logo.png" id="logo" alt="logo binch"></span>
-            <h1>Lorem ipsum dolor large</h1>
-        <div class="body">
-            <div><input type="text" name="joueur" placeholder="Joueur 1" value=""></div>
-            <div><input type="text" name="joueur" placeholder="Joueur 2" value=""></div>
-            <div><input type="text" name="joueur" placeholder="Joueur 3" value=""></div>
-            <div><input type="text" name="joueur" placeholder="Joueur 4" value=""></div>
-            <div><img id="ajout" src="img/add-button-inside-black-circle.png" alt="ajout"></div>
+            <nav>
+                <a href="menu.html">
+                    <img src="img/menu.png" alt="logo menu">
+                </a>
+            </nav>
+
+                <div id="logo_slogan">
+                    <img src="img/logo_binch.png" id="logo" alt="logo binch">
+                    <h1>Lorem ipsum dolor large</h1>
+                </div>
+
+                <form method="post">
+                    <input type="text" name="joueur" placeholder="Joueur 1" value="">
+                    <input type="text" name="joueur" placeholder="Joueur 2" value="">
+                    <input type="text" name="joueur" placeholder="Joueur 3" value="">
+                    <input type="text" name="joueur" placeholder="Joueur 4" value="">
+                    <div>
+                        <img id="ajout" src="img/add-button-inside-black-circle.png" alt="ajout">
+                    </div>
+                    <input id="bouton" type="submit" name="buvons" value="BUVONS !">
+                </form>
         </div>
-        <div>
-           <form method="post" action="prenom.html">
-           <input id="boutton" type="submit" name="buvons" value="BUVONS !">
-           </form>
-        </div>
-        </div>
+
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>

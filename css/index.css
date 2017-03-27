@@ -17,7 +17,6 @@ body {
  /* Page d'acceuil */
 .app { 
 text-align: center;
-background-color: #3498db;
 background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:0.4rem;
@@ -51,6 +50,9 @@ border-bottom: 1px solid white;
 }
 .body {
 margin-top: 90px;
+display: flex;
+flex-direction: column;
+align-items: 
 }
 #ajout {
 margin-top: 20px;
@@ -185,18 +187,33 @@ font-weight: 800;
 }
 .ose a {
 text-decoration: none;
+
+
+#content_ose {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh; 
+    margin: 0;
+
 }
-.ose div {
-width: 50%;
-color: white;
-height: 100%;
-border-radius: 30px;
-text-align: center;
-font-weight: 800;
-font-size: 3.8rem;
-line-height: 21rem;
-box-shadow: 
+#content_ose a {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 50%;
+    height: 100%;
+    margin:0;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 3.8rem;
+    line-height: 21rem;
+    border-radius: 30px;
 }
+
 #ose {
 background-color: #2ecc71;
 position: fixed;
