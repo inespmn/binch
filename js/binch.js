@@ -57,4 +57,15 @@ console.log(j);
 //Qd action est faite
 /*boutonFait.onclick = function(){
 
-}*/ 
+}*/
+
+
+//Récupérer nom des joueurs
+
+bouton.onclick = function(){
+	
+	var nomJoueurs = document.getElementByName('joueur').value;
+	alert('nomJoueurs');
+
+}
+
