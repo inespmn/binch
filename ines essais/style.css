@@ -1,0 +1,131 @@
+body {
+
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    margin: 0;
+}
+
+.cacher{
+    display: none !important;
+}
+
+.texte_cache{
+    display: none !important;
+}
+
+#page_form{
+
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:0.4rem;
+    min-height:100vh;
+    min-width: 100vw;
+    margin:0px;
+    padding: 15px;
+    text-transform:uppercase;
+    min-height: 100vh;
+    background-color: #3498db;
+
+}
+
+#logo_slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin: auto;
+    width: 100%;
+    color: white;
+    height: 30rem;
+}
+
+#logo_slogan img {
+    width: 40rem;
+    height: 13rem;
+}
+
+h1{
+    padding: 5px;
+    font-size: 1.6rem;
+}
+
+
+#form{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50rem;
+    margin-top: 5rem;
+}
+
+#page_form input {
+padding-left: 2.3rem;
+padding-right: 2.3rem;
+background-color: #3498db;
+border: none;
+color: white;
+width: 65%;
+height: 40px;
+border-left: 2px solid white;
+border-bottom: 2px solid white;
+}
+
+#page_form button{
+    background-color: #2ecc71;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    height: 4rem;
+    width: 40rem;
+    border:none;
+}
+
+#page_prenom{
+    background-color: #3498db;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page_prenom p {
+    color: white;
+    font-size: 3rem;
+}
+
+#page_choix{
+    background-color: #3498db;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+}
+
+#page_choix div{
+    box-sizing: border-box;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#bouton_ose, #bouton_ose_pas {
+    color: white; 
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#bouton_ose{
+    background-color: #2ecc71;
+}
+
+#bouton_ose_pas{
+    background-color: #e74C3C;
+}
