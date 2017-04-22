@@ -22,13 +22,15 @@ body {
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:0.4rem;
     min-height:100vh;
-    min-width: 100vw;
     margin:0px;
     padding: 15px;
     text-transform:uppercase;
-    min-height: 100vh;
     background-color: #3498db;
 
+}
+
+#page_form nav img{
+	height: 1.8rem;
 }
 
 #logo_slogan {
@@ -39,29 +41,28 @@ body {
     margin: auto;
     width: 100%;
     color: white;
-    height: 30rem;
+    height: 11rem;
 }
 
 #logo_slogan img {
-    width: 40rem;
-    height: 13rem;
+    width: 22rem;
+    height: 7rem;
 }
 
 h1{
     padding: 5px;
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 
 
 #form{
     display: flex;
-    width: 80%;
     margin: auto;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 50rem;
-    margin-top: 5rem;
+    height: 25rem;
+    margin-top: 3rem;
 }
 
 #page_form input {
@@ -70,8 +71,7 @@ padding-right: 2.3rem;
 background-color: #3498db;
 border: none;
 color: white;
-width: 65%;
-height: 40px;
+height: 1.7rem;
 border-left: 2px solid white;
 border-bottom: 2px solid white;
 }
@@ -82,8 +82,8 @@ border-bottom: 2px solid white;
     font-size: 20px;
     color: white;
     text-align: center;
-    height: 4rem;
-    width: 40rem;
+    height: 3rem;
+    width: 15rem;
     border:none;
 }
 
@@ -120,7 +120,7 @@ border-bottom: 2px solid white;
 
 #bouton_ose, #bouton_ose_pas {
     color: white; 
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
@@ -133,7 +133,7 @@ border-bottom: 2px solid white;
 }
 
 #page_question_ose, #page_question_ose_pas{
-    width: 100vw;
+    width: 97%;
     height: 100vh;
     background-color: #1abc9c;
     color: white;
@@ -145,16 +145,16 @@ border-bottom: 2px solid white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4rem;
+    height: 3rem;
 }
 
 #haut_page_ose img{
-    height: 2.9rem;
+    height: 2.1rem;
 }
 
 #haut_page_ose div:nth-child(2){
     border-radius: 10px;
-    padding: 15px 30px;
+    padding: 7px 25px;
     font-size: 1.5em;
 }
 
@@ -170,9 +170,9 @@ border-bottom: 2px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20rem;
+    height: 9rem;
     width: 100%;
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
 }
 
@@ -181,9 +181,9 @@ border-bottom: 2px solid white;
     border-radius: 10px;
     background-color: #3498db;
     color: white;
-    height: 4.1rem;
-    width: 9rem;
-    font-size: 1.7em;
+    height: 3.5rem;
+    width: 8rem;
+    font-size: 1.4em;
     text-transform: uppercase;
 }
 
@@ -209,7 +209,7 @@ border-bottom: 2px solid white;
 }
 
 #fermer img{
-    height: 2rem;
+    height: 1.2rem;
 }
 
 #fermer + div{
@@ -218,12 +218,14 @@ border-bottom: 2px solid white;
 }
 
 #fermer + div img {
-    height: 5rem;
+    height: 4rem;
     margin: auto;
 }
 
 #page_tools ul {
     display: flex;
+    padding: 0;
+    width: 12rem;
     flex-direction: column;
     height: 60vh;
     justify-content: space-around;
@@ -233,6 +235,8 @@ border-bottom: 2px solid white;
 #page_tools li{
     border-bottom: 1px solid white;
     text-transform: uppercase;
+    font-size: 0.7rem;
+    padding-bottom: 0.2rem;
 }
 
 #page_tools a{
@@ -248,4 +252,17 @@ border-bottom: 2px solid white;
 
 #page_tools ul li img{
     margin:3px;
+    height: 1.5rem;
+}
+
+#page_regles{
+	width: 11rem;
+}
+
+#page_regles h2{
+	font-size: 1rem; 
+}
+
+#page_regles p{
+	font-size: 0.7rem;
 }

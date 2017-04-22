@@ -5,25 +5,21 @@
 	<meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
 <div class="contact">
     <span id="back"><a href="menu.html"><img src="img/left-arrow.png" alt="logo menu"></a></span>
-    <span><img src="img/logo.png" id="logo" alt="logo binch"></span>
-    <h1>Contactez-nous !</h1>
+    <span><img src="img/logo_binch.png" id="logo" alt="logo binch"></span>
  	<div class="body">
  		<form method="post" action="#">
  			<input type="text" name="noms" placeholder="Nom Prenom" value="" required>
- 			<input type="mail" name="email" placeholder="Votre adresse e-mail" value="" required>
- 			<input type="text" name="sujet" placeholder="Sujet" value="" required>
- 			<textarea name="message" maxlength="1000" placeholder="Votre message" value="" required>
-			</textarea>
+ 			<input type="mail" name="email" placeholder="Ton adresse e-mail" value="" required>
+ 			<input type="text" name="sujet" placeholder="Sujet" value="" max-lenght="100" required>
+ 			<input type="text" name="message" placeholder="Ton message" value="" max-lenght="1000" required>
+            <input id="boutton" type="submit" name="envoyer" value="Envoyer">
  		</form>
  	</div>
- 	<div>
-        <input id="boutton" type="button" name="envoyer" value="Envoyer">
-    </div>
 </div>
 </body>
 </html>

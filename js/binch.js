@@ -48,6 +48,8 @@ var boutonChangeOsePas = document.getElementById('change_ose_pas');
 var boutonToolsOse = document.getElementById('tools_ose');
 var boutonToolsOsePas = document.getElementById('tools_ose_pas');
 var boutonFermer = document.getElementById('fermer');
+var boutonRegles = document.getElementById('regles');
+
 
 
 
@@ -60,6 +62,11 @@ var pageChoix = document.getElementById('page_choix');
 var pageOse = document.getElementById('page_question_ose');
 var pageOsePas = document.getElementById('page_question_ose_pas');
 var pageTools = document.getElementById('page_tools');
+var pageRegles = document.getElementById('page_regles');
+var pageMenu = document.getElementById('menu');
+
+
+
 //fonctions dans le jeu 
 
 function recupererJoueurs(){
@@ -192,6 +199,11 @@ function jeu(){
 					cacher(pageTools);
 					montrer(pageOse);
 				}
+
+				boutonRegles.onclick = function(){
+					cacher(pageMenu);
+					montrer(pageRegles);
+				}
 			}
 
 			boutonFaitOse.onclick = function(){
@@ -247,6 +259,11 @@ function jeu(){
 				boutonFermer.onclick = function(){
 					cacher(pageTools);
 					montrer(pageOsePas);
+				}
+
+				boutonRegles.onclick = function(){
+					cacher(pageMenu);
+					montrer(pageRegles);
 				}
 			}
 
