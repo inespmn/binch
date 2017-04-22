@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
 
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     margin: 0;
+    font-family: 'Roboto';
 }
 
 .cacher{
@@ -128,4 +130,122 @@ border-bottom: 2px solid white;
 
 #bouton_ose_pas{
     background-color: #e74C3C;
+}
+
+#page_question_ose, #page_question_ose_pas{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+#haut_page_ose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+#haut_page_ose img{
+    height: 2.9rem;
+}
+
+#haut_page_ose div:nth-child(2){
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+}
+
+#page_question_ose #haut_page_ose div:nth-child(2){
+    background-color: #2ecc71;  
+}
+
+#page_question_ose_pas #haut_page_ose div:nth-child(2){
+    background-color: #e74C3C;  
+}
+
+#question_ose p, #question_ose_pas p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+}
+
+#page_question_ose button, #page_question_ose_pas button {
+    border:none;
+    border-radius: 10px;
+    background-color: #3498db;
+    color: white;
+    height: 4.1rem;
+    width: 9rem;
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+#page_tools{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+}
+
+#blanc{
+    height: 100vh;
+    width: 65%;
+}
+
+#page_tools div:last-child{
+    height: 100vh;
+    width: 35%;
+    background-color: #3498db;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#fermer img{
+    height: 2rem;
+}
+
+#fermer + div{
+    display: flex;
+    height: 5.5em;
+}
+
+#fermer + div img {
+    height: 5rem;
+    margin: auto;
+}
+
+#page_tools ul {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#page_tools li{
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+
+#page_tools a{
+    color: white;
+    text-decoration: none;
+}
+
+#page_tools ul li:last-child{
+    border:none;
+    display: flex;
+    justify-content: center;
+}
+
+#page_tools ul li img{
+    margin:3px;
 }
